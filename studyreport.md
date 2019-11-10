@@ -83,14 +83,19 @@ vi/vim共分为三种模式，分别时命令模式、输入模式和底线命�
 #### 二 语法要点
 **(一) 类和对象**
 
-> 对象是类的实例
-产生对象的方法： `ClassName ObjectName = new ClassName("参数")`
+1 对象是类的实例
+> 产生对象的方法： `ClassName ObjectName = new ClassName("参数")`
 
-> 源文件声明规则
-1 一个源文件只能有一个public类
+2 源文件声明规则
+> 一个源文件只能有一个public类
 
-2 源文件的类名和pubic的类名保持一致
+> 源文件的类名和pubic的类名保持一致
 
-> import语句
+3 static & final
+> static用来声明类变量和类方法
 
+> 类方法只能使用类变量
 
+> final变量只能被显示的初始化并且只能初始化一次，之后的改变必须全都用常量改变
+
+> final方法，可以被子类继承但是不能被子类修改
